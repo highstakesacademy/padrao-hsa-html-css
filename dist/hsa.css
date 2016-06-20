@@ -64,4 +64,55 @@ form.hsa-optin-form input {
     form.hsa-optin-form input[type="submit"]:hover {
       background-color: #398cdf; }
 
+button.hsa-default-button {
+  border: none;
+  border-radius: 100px;
+  color: black;
+  display: block;
+  font-family: sans-serif;
+  font-weight: 300;
+  margin: 0.5em auto;
+  outline: none;
+  padding: 0;
+  text-align: center;
+  transition: 0.3s all;
+  width: 100%;
+  height: 28px;
+  max-width: 275px;
+  background-color: #2e82bc;
+  color: white;
+  cursor: pointer;
+  font-weight: 700;
+  margin-top: 0.7em;
+  font-size: 16px; }
+  @media (min-width: 570px) {
+    button.hsa-default-button {
+      height: 32px; } }
+  @media (min-width: 985px) {
+    button.hsa-default-button {
+      height: 36px; } }
+  @media (min-width: 1400px) {
+    button.hsa-default-button {
+      height: 40px; } }
+  @media (min-width: 570px) {
+    button.hsa-default-button {
+      max-width: 313px; } }
+  @media (min-width: 985px) {
+    button.hsa-default-button {
+      max-width: 351px; } }
+  @media (min-width: 1400px) {
+    button.hsa-default-button {
+      max-width: 389px; } }
+  @media (min-width: 570px) {
+    button.hsa-default-button {
+      font-size: 18px; } }
+  @media (min-width: 985px) {
+    button.hsa-default-button {
+      font-size: 20px; } }
+  @media (min-width: 1400px) {
+    button.hsa-default-button {
+      font-size: 22px; } }
+  button.hsa-default-button:hover {
+    background-color: #398cdf; }
+
 /*# sourceMappingURL=hsa.css.map */

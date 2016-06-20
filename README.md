@@ -7,7 +7,7 @@ Um código CSS que poderá ser importado em qualquer nova página que esteja sen
 
 ## Como usar
 
-Basta fazer o download do arquivo *hsa.css* e mandar bala. Não se esqueça de conferir o arquivo *demo.html* para ver os padrões disponíveis.
+Basta fazer o download do arquivo *hsa.css* que está na pasta *dist* e mandar bala. Não se esqueça de conferir o arquivo *demo.html* para ver os padrões disponíveis.
 
 Outra opção é fazer um clone do repositório e editar os arquivos SCSS como quiser.
 
