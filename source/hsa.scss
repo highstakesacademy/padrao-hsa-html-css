@@ -15,6 +15,14 @@ $resize-up-3: 1400px;
     @media(min-width: $resize-up-3) { #{$prop}: $mobile-value+3*$delta; }
 }
 
+@mixin respProp($prop, $mobile-value, $desktop-value) {
+    $delta: ($desktop-value - $mobile-value) / 2;
+    #{$prop}: $mobile-value;
+    @media(min-width: $resize-up-1) { #{$prop}: $mobile-value+1*$delta; }
+    @media(min-width: $resize-up-2) { #{$prop}: $mobile-value+2*$delta; }
+    @media(min-width: $resize-up-3) { #{$prop}: $mobile-value+3*$delta; }
+}
+
 
 
 /* Optins */
